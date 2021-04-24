@@ -1,0 +1,118 @@
+body{
+    background-color: #33383A;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    overflow: auto;
+}
+
+header{
+    background-color: #282c2e;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    opacity: 96%;
+}
+
+nav{
+    background-color: #282c2e;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    margin-top: 60px;
+}
+
+h1,h2,h3,h4,h5,p,ol,li,ul,a{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+ol,li,ul{
+    font-size: 20px;
+    list-style-position: inside;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.navbar{
+    background-color: #282c2e;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    text-indent: 25%;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.home{
+    margin-left:16%;
+    margin-right: 1%;
+}
+
+.navicon{
+    height: 40px;
+    float:left;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 20px;
+}
+
+.centicon{
+    height: 20px;
+    Margin: auto;
+}
+
+.image{
+    width: 100%;
+}
+
+.bodycon{
+    width: 21%;
+    float: left;
+    padding: 2%
+}
+
+.text{
+    text-align: right;
+}
+
+.bodytex{
+    width: 65%;
+    float: left;
+}
+
+.bodyimg{
+    width: 35%;
+    float: right;
+}
